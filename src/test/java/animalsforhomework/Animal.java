@@ -85,5 +85,7 @@ public class Animal {
         animal2.go();
         animal3.drink();
     }
+
+
     }
 
