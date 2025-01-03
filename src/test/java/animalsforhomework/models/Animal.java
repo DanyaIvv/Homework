@@ -1,6 +1,6 @@
-package animalsforhomework;
+package animalsforhomework.models;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private Integer age;
     private double weight;
@@ -46,7 +46,7 @@ public class Animal {
         this.color = color;
     }
 
-    void say () {
+    public void say() {
         System.out.println("Я говорю");
     }
     void go () {
@@ -72,20 +72,6 @@ public class Animal {
             return String.format("Привет! меня зовут %s, мне %d %s, я вешу - %.1f кг, мой цвет - %s",
                     name, age, ageSuffix, weight, color);
         }
-    public static void main(String[] args) {
-        Animal animal1 = new Animal("Бобик", 5, 15, "черный");
-        Animal animal2 = new Animal("Барсик", 1, 4.5, "белый");
-        Animal animal3 = new Animal("Мурка", 2, 6, "серый");
-
-        System.out.println(animal1);
-        System.out.println(animal2);
-        System.out.println(animal3);
-
-        animal1.say();
-        animal2.go();
-        animal3.drink();
-    }
-
 
     }
 

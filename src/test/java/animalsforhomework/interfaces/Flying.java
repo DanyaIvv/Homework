@@ -1,4 +1,4 @@
-package animalsforhomework;
+package animalsforhomework.interfaces;
 
 public interface Flying {
     void fly();

@@ -1,4 +1,4 @@
-package animalsforhomework;
+package animalsforhomework.models;
 
 public class Cat extends Animal {
 
